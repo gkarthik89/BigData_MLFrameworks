@@ -4,6 +4,7 @@
 </p>
 <h4> Dataset: </h4>
 <p> The analysis is limited to evaluating one machine learning algorithm on three different machine learning frameworks. Not all the frameworks available in the market today supports all the machine learning algorithms. These frameworks are designed to handle and work efficiently only for a particular category of algorithms like classification, clustering, deep learning etc. For example, Keras an machine learning framework is primarily built for unsupervised clustering-based algorithms.  We are comparing a classification algorithm against three machine learning toolkits that are used as a part of big data technologies. 
+ Please run `create_datasets.R` and generate files for each framework as needed.
 </p>
 <h4> Setup:</h4>
 <p>The tests have been carried out in the cluster setup done on Microsoft Azure. Azure clusters support many of the machine learning framework that come with pre-configured tools required for executing the code and storing data. Total cluster node-10 with max ram of 28GB, with the following split Head - 8 cores, 2 nodes, Worker – 32 cores, 4 nodes, Edge nodes –8 cores, 1 node.  </p>
