@@ -2,8 +2,8 @@ library(sparklyr)
 sc <- spark_connect("yarn-client")
 
 #connecting to the azure storage on the created cluster.
-azure_storage_path <- file.path("wasb://bdaclusterstore@bdaclusterhdistorage1.blob.core.windows.net",
-                                "user/sshuser/csvfiles")
+azure_storage_path <- file.path("wasb://NAME@NAME.blob.core.windows.net",
+                                "path")
 
 # Reading the test and the train data from the files in azure storage.(0.1m dataset)
 test_data <- spark_read_csv(sc, path = azure_storage_path,
